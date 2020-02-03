@@ -1,0 +1,168 @@
+9985,130B,,地震数据采集器,中国地震局地球物理研究所,returned
+98A3,130B,,地震数据采集器,中国地震局地球物理研究所,returned
+9A25,130B,,地震数据采集器,中国地震局地球物理研究所,returned
+9A29,130B,,地震数据采集器,中国地震局地球物理研究所,returned
+9A70,130B,,地震数据采集器,中国地震局地球物理研究所,returned
+9A8F,130B,,地震数据采集器,中国地震局地球物理研究所,returned
+9B09,130B,,地震数据采集器,中国地震局地球物理研究所,returned
+9B31,130B,,地震数据采集器,中国地震局地球物理研究所,returned
+9B4A,130B,,地震数据采集器,中国地震局地球物理研究所,returned
+9C06,130B,,地震数据采集器,中国地震局地球物理研究所,returned
+9C41,130B,,地震数据采集器,中国地震局地球物理研究所,returned
+9C70,130B,,地震数据采集器,中国地震局地球物理研究所,returned
+9C7B,130B,,地震数据采集器,中国地震局地球物理研究所,returned
+9C8D,130B,,地震数据采集器,中国地震局地球物理研究所,returned
+9C92,130B,,地震数据采集器,中国地震局地球物理研究所,returned
+9CA3,130B,,地震数据采集器,中国地震局地球物理研究所,returned
+9CAA,130B,,地震数据采集器,中国地震局地球物理研究所,returned
+9CAB,130B,,地震数据采集器,中国地震局地球物理研究所,returned
+9CB1,130B,,地震数据采集器,中国地震局地球物理研究所,returned
+9CBE,130B,,地震数据采集器,中国地震局地球物理研究所,returned
+9CDD,130B,,地震数据采集器,中国地震局地球物理研究所,returned
+9CEF,130B,,地震数据采集器,中国地震局地球物理研究所,returned
+9CFD,130B,,地震数据采集器,中国地震局地球物理研究所,returned
+9F98,130B,,地震数据采集器,中国地震局地球物理研究所,returned
+9F9B,130B,,地震数据采集器,中国地震局地球物理研究所,returned
+9FB4,130B,,地震数据采集器,中国地震局地球物理研究所,returned
+AB93,130B,,地震数据采集器,中国地震局地球物理研究所,returned
+AF55,130B,,地震数据采集器,中国地震局地球物理研究所,returned
+AF8E,130B,,地震数据采集器,中国地震局地球物理研究所,returned
+9A2E,130B,,地震数据采集器,中国地震局地球物理勘探中心,in_warehouse
+9A72,130B,,地震数据采集器,中国地震局地球物理勘探中心,in_warehouse
+9A74,130B,,地震数据采集器,中国地震局地球物理勘探中心,in_warehouse
+9A7B,130B,,地震数据采集器,中国地震局地球物理勘探中心,in_warehouse
+9A87,130B,,地震数据采集器,中国地震局地球物理勘探中心,in_warehouse
+9A9F,130B,,地震数据采集器,中国地震局地球物理勘探中心,in_warehouse
+9B0B,130B,,地震数据采集器,中国地震局地球物理勘探中心,in_warehouse
+9B18,130B,,地震数据采集器,中国地震局地球物理勘探中心,in_warehouse
+9B1E,130B,,地震数据采集器,中国地震局地球物理勘探中心,in_warehouse
+9B4F,130B,,地震数据采集器,中国地震局地球物理勘探中心,in_warehouse
+9B55,130B,,地震数据采集器,中国地震局地球物理勘探中心,in_warehouse
+9B63,130B,,地震数据采集器,中国地震局地球物理勘探中心,in_warehouse
+9C1A,130B,,地震数据采集器,中国地震局地球物理勘探中心,in_warehouse
+9C95,130B,,地震数据采集器,中国地震局地球物理勘探中心,in_warehouse
+9CD2,130B,,地震数据采集器,中国地震局地球物理勘探中心,in_warehouse
+T4J17,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理研究所,in_warehouse
+T4J66,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理研究所,in_warehouse
+T4I45,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理研究所,in_warehouse
+T4I93,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理研究所,in_warehouse
+T4K06,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理研究所,in_warehouse
+T4J84,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理研究所,in_warehouse
+T4J93,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理研究所,in_warehouse
+T4I99,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理研究所,in_warehouse
+T4I54,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理研究所,in_warehouse
+T4J90,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理研究所,in_warehouse
+T4J03,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理研究所,in_warehouse
+T4I94,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理研究所,in_warehouse
+T4J80,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理研究所,in_warehouse
+T4I95,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理研究所,in_warehouse
+T4I44,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理研究所,in_warehouse
+T4J92,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理研究所,in_warehouse
+T4H78,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理研究所,in_warehouse
+T4J70,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理研究所,in_warehouse
+T4J72,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理研究所,in_warehouse
+T4I41,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理研究所,in_warehouse
+T4J24,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理研究所,in_warehouse
+T4J25,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理研究所,in_warehouse
+T4J04,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理研究所,in_warehouse
+T4Z22,40T,30 s to 100 Hz 2 x 600 V/m/s,地震仪,中国地震局地球物理研究所,in_warehouse
+T4I42,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理勘探中心,in_warehouse
+T4I43,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理勘探中心,in_warehouse
+T4I49,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理勘探中心,in_warehouse
+T4J02,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理勘探中心,in_warehouse
+T4J08,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理勘探中心,in_warehouse
+T4J13,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理勘探中心,in_warehouse
+T4J14,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理勘探中心,in_warehouse
+T4J18,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理勘探中心,in_warehouse
+T4J19,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理勘探中心,in_warehouse
+T4J22,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理勘探中心,in_warehouse
+T4J26,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理勘探中心,in_warehouse
+T4J29,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理勘探中心,in_warehouse
+T4J69,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理勘探中心,in_warehouse
+T4J79,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理勘探中心,in_warehouse
+T4J82,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理勘探中心,in_warehouse
+T4J83,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理勘探中心,in_warehouse
+T4J96,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理勘探中心,in_warehouse
+T4J97,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理勘探中心,in_warehouse
+T4J98,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理勘探中心,in_warehouse
+T4K09,40T,2 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局地球物理勘探中心,in_warehouse
+D478,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D49A,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D497,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D490,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D48D,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D48C,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D48B,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D485,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D484,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D483,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D482,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D481,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D480,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D47C,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D47B,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D47A,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D479,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D477,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D476,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D475,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D474,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D473,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D472,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D471,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D470,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D46F,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D46E,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D46D,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D46C,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D46B,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D46A,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D469,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D468,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D467,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D466,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D465,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D463,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D462,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D461,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+D45E,130S,,地震数据采集器,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44041,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44042,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44043,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44044,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44045,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44046,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44047,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44048,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44049,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44050,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44051,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44052,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44053,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44054,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44055,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44056,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44057,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44058,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44059,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44060,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44061,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44062,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44063,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44064,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44065,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44068,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44069,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44070,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44071,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44072,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44073,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44074,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44075,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44076,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44077,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44078,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44079,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44080,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44081,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
+T44082,40T,30 s to 100 Hz 2 x 1000 V/m/s,地震仪,中国地震局滇西地震预报实验场办公室,in_warehouse
