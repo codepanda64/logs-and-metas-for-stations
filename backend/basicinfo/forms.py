@@ -2,7 +2,7 @@ from django import forms
 from django.db.models import Q
 
 from .models import Network, Station
-from instruments.models import SeismicInstrumentEntity
+from instruments.models import InstrumentEntity
 
 
 class NetworkForm(forms.ModelForm):
@@ -13,21 +13,16 @@ class NetworkForm(forms.ModelForm):
         fields = [
             "code",
             "name",
-            "slug",
             "remark",
         ]
-        widgets = {
-            "slug": forms.TextInput({"readonly": True}),
-        }
 
 
 class StationForm(forms.ModelForm):
     class Meta:
         model = Station
         fields = [
-            "net",
+            "network",
             "code",
-            "slug",
             "name",
             "latitude",
             "longitude",
@@ -36,9 +31,6 @@ class StationForm(forms.ModelForm):
             "removal",
             "remark",
         ]
-        widgets = {
-            "slug": forms.TextInput({"readonly": True}),
-        }
 
 
 class StationAdminForm(forms.ModelForm):
@@ -47,7 +39,7 @@ class StationAdminForm(forms.ModelForm):
         fields = "__all__"
 
     seismic_instruments = forms.ModelMultipleChoiceField(
-        queryset=SeismicInstrumentEntity.objects.filter(status="in_warehouse")
+        queryset=InstrumentEntity.objects.filter(status="in_warehouse")
     )
 
     def __init__(self, *args, **kwargs):
@@ -56,7 +48,7 @@ class StationAdminForm(forms.ModelForm):
             # self.fields['seismic_instruments'].widget = forms.SelectMultiple()
             self.fields[
                 "seismic_instruments"
-            ].queryset = SeismicInstrumentEntity.objects.filter(
+            ].queryset = InstrumentEntity.objects.filter(
                 Q(status="in_warehouse") | Q(by_used=self.instance)
             )
             self.fields[
@@ -65,7 +57,7 @@ class StationAdminForm(forms.ModelForm):
 
     def save(self, commit, *args, **kwargs):
         instance = super().save(commit=False)
-        old_instruments = SeismicInstrumentEntity.objects.none()
+        old_instruments = InstrumentEntity.objects.none()
         if self.fields["seismic_instruments"].initial:
             old_instruments = self.fields["seismic_instruments"].initial
             old_instruments.update(by_used=None, status="unknow")

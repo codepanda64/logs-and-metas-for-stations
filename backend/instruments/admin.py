@@ -6,16 +6,16 @@ from mptt.admin import TreeRelatedFieldListFilter
 
 from .models import (
     Department,
-    InstrumentModel,
+    Instrument,
     InstrumentCategory,
-    SeismicInstrumentEntity,
+    InstrumentEntity,
 )
 
 admin.site.register(Department)
 admin.site.register(InstrumentCategory, MPTTModelAdmin)
 
 
-@admin.register(InstrumentModel)
+@admin.register(Instrument)
 class InstrumentModelAdmin(admin.ModelAdmin):
     """Admin View for Station"""
 
@@ -35,7 +35,7 @@ class InstrumentModelAdmin(admin.ModelAdmin):
     )
 
 
-class SeismicInstrumentEntityCategoryFilter(admin.SimpleListFilter):
+class InstrumentEntityCategoryFilter(admin.SimpleListFilter):
     title = "按仪器分类"
 
     parameter_name = "category"
@@ -54,9 +54,9 @@ class SeismicInstrumentEntityCategoryFilter(admin.SimpleListFilter):
             return queryset.filter(instrument_model__category=3)
 
 
-@admin.register(SeismicInstrumentEntity)
-class SeismicInstrumentEntityAdmin(admin.ModelAdmin):
-    """Admin View for SeismicInstrumentEntity"""
+@admin.register(InstrumentEntity)
+class InstrumentEntityAdmin(admin.ModelAdmin):
+    """Admin View for InstrumentEntity"""
 
     list_display = (
         "sn",
@@ -66,7 +66,7 @@ class SeismicInstrumentEntityAdmin(admin.ModelAdmin):
     )
     list_display_links = ("sn",)
     list_filter = (
-        SeismicInstrumentEntityCategoryFilter,
+        InstrumentEntityCategoryFilter,
         "instrument_model",
         "status",
         "belong",

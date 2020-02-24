@@ -47,9 +47,10 @@ class InstrumentCategory(MPTTModel):
         return self.name
 
 
-class InstrumentModel(models.Model):
+class Instrument(models.Model):
     """
-    设备仪器型号信息
+    设备仪器型号信息 
+    有单独的序列号记录的设备的型号模型信息
     """
 
     name = models.CharField(max_length=100, verbose_name="设备名称")
@@ -60,16 +61,17 @@ class InstrumentModel(models.Model):
         on_delete=models.SET_NULL,
         null=True,
         blank=True,
-        related_name="instrument_models",
+        related_name="instruments",
         verbose_name="所属分类",
     )
-    has_sn = models.BooleanField(default=False, verbose_name="是否有单独序列号")
+    # 是否是特殊设备的模版，有单独序列号设备的模版
+    is_model = models.BooleanField(default=False)
     param = models.CharField(max_length=200, blank=True, verbose_name="参数描述")
     total = models.PositiveIntegerField(default=1, verbose_name="总数")
 
     class Meta:
-        verbose_name = "设备信息"
-        verbose_name_plural = "设备信息"
+        verbose_name = "设备模型信息"
+        verbose_name_plural = "设备模型信息"
         ordering = ("name",)
         unique_together = (
             "name",
@@ -84,7 +86,7 @@ class InstrumentModel(models.Model):
         return self.name if self.param == "" else f"{self.name}({self.param})"
 
 
-class SeismicInstrumentEntity(models.Model):
+class InstrumentEntity(models.Model):
     """
     测震设备实体
     """
@@ -99,17 +101,17 @@ class SeismicInstrumentEntity(models.Model):
     )
     sn = models.CharField(max_length=50, verbose_name="设备序号", unique=True)
     instrument_model = models.ForeignKey(
-        "InstrumentModel",
+        "Instrument",
         related_name="instrument_entities",
         on_delete=models.CASCADE,
-        limit_choices_to={"has_sn": True},
+        limit_choices_to={"is_model": True},
         verbose_name="设备型号",
     )
     status = models.CharField(
         max_length=50, choices=STATUS_TYPE, default="in_warehouse", verbose_name="状态"
     )
     belong = models.ForeignKey(
-        Department, null=True, on_delete=models.SET_NULL, verbose_name="所属单位"
+        "Department", null=True, on_delete=models.SET_NULL, verbose_name="所属单位"
     )
     by_used = models.ForeignKey(
         "basicinfo.Station",
@@ -136,10 +138,10 @@ class SeismicInstrumentEntity(models.Model):
 class InstrumentItem(models.Model):
     station = models.ForeignKey("basicinfo.Station", on_delete=models.CASCADE)
     instrument = models.ForeignKey(
-        "InstrumentModel",
+        "Instrument",
         on_delete=models.CASCADE,
         verbose_name="仪器型号",
-        limit_choices_to={"has_sn": False},
+        limit_choices_to={"is_model": False},
     )
     quantity = models.PositiveIntegerField(default=1, verbose_name="数量")
 

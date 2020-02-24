@@ -1,7 +1,7 @@
 from django.contrib import admin
 
 from .models import Network, Station
-from instruments.models import InstrumentItem, SeismicInstrumentEntity
+from instruments.models import InstrumentItem, InstrumentEntity
 from .forms import StationForm
 
 admin.site.site_header = "台站运维日志管理系统"
@@ -19,15 +19,10 @@ class NetworkAdmin(admin.ModelAdmin):
     )
     list_display_links = ("code",)
     ordering = ("code",)
-    prepopulated_fields = {"slug": ("code",)}
 
 
 class InstrumentItemInline(admin.TabularInline):
     model = InstrumentItem
-
-
-# class SeismicInstrumentEntityInline(admin.TabularInline):
-#     model = SeismicInstrumentEntity
 
 
 @admin.register(Station)

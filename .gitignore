@@ -130,3 +130,5 @@ dmypy.json
 
 # vscode
 .vscode/
+backend/db.sqlite3.bak
+backend/db.sqlite3.bak2
