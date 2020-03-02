@@ -7,9 +7,11 @@ app_name = "instruments"
 
 router = SimpleRouter()
 router.register(r"models", views.InstrumentModelViewSet)
-router.register(
-    r"models/(?P<instrument_model_id>[0-9]+)/entities", views.InstrumentEntityViewSet
-)
+router.register(r"entities", views.InstrumentEntityViewSet)
+
+# router.register(
+#     r"models/(?P<instrument_model_id>[0-9]+)/entities", views.InstrumentEntityViewSet
+# )
 
 urlpatterns = []
 

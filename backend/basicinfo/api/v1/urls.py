@@ -7,15 +7,17 @@ app_name = "basic_info"
 
 router = SimpleRouter()
 router.register(r"networks", views.NetworkViewSet)
-router.register(
-    r"networks/(?P<network_id>[0-9]+)/stations",
-    views.StationViewSet,
-    basename="station-by-network",
-)
+router.register(r"stations", views.StationViewSet)
+
+# router.register(
+#     r"networks/(?P<network_id>[0-9]+)/stations",
+#     views.StationViewSet,
+#     basename="station-by-network",
+# )
 
 
 urlpatterns = [
-    path("stations/", views.StationListCreateView.as_view(), name="station-list",),
+    # path("stations/", views.Station.as_view(), name="station-list",),
 ]
 
 urlpatterns += router.urls

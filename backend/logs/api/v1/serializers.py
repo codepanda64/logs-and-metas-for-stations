@@ -5,11 +5,11 @@ from ...models import (
     BeforeStatusCheck,
     AfterStatusCheck,
     Record,
-    LocationRecord,
-    InstrumentEntityRecord,
-    CommmonInstrumentRecord,
-    InsertDiskRecord,
-    CollectedDataRecord,
+    LocationRecordItem,
+    InstrumentEntityRecordItem,
+    CommmonInstrumentRecordItem,
+    InsertDiskRecordItem,
+    CollectedDataRecordItem,
 )
 
 
@@ -37,31 +37,40 @@ class RecordSerializer(serializers.ModelSerializer):
         fields = "__all__"
 
 
-class LocationRecordSerializer(serializers.ModelSerializer):
+class LocationRecordItemSerializer(serializers.ModelSerializer):
     class Meta:
-        model = LocationRecord
+        model = LocationRecordItem
         fields = "__all__"
 
 
-class InstrumentEntityRecordSerializer(serializers.ModelSerializer):
+class InstrumentEntityRecordItemSerializer(serializers.ModelSerializer):
     class Meta:
-        model = InstrumentEntityRecord
+        model = InstrumentEntityRecordItem
         fields = "__all__"
 
 
-class CommmonInstrumentRecordSerializer(serializers.ModelSerializer):
+class CommmonInstrumentRecordItemSerializer(serializers.ModelSerializer):
     class Meta:
-        model = CommmonInstrumentRecord
+        model = CommmonInstrumentRecordItem
         fields = "__all__"
 
 
-class InsertDiskRecordSerializer(serializers.ModelSerializer):
+class InsertDiskRecordItemSerializer(serializers.ModelSerializer):
     class Meta:
-        model = InsertDiskRecord
+        model = InsertDiskRecordItem
         fields = "__all__"
 
 
-class CollectedDataRecordSerializer(serializers.ModelSerializer):
+class CollectedDataRecordItemSerializer(serializers.ModelSerializer):
     class Meta:
-        model = CollectedDataRecord
+        model = CollectedDataRecordItem
         fields = "__all__"
+
+
+class ManageLogDetailSerializer(serializers.ModelSerializer):
+    records = RecordSerializer(many=True)
+
+    class Meta:
+        model = ManageLog
+        fields = ("station", "managed_date", "records")
+

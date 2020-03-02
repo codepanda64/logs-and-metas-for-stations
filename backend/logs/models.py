@@ -36,7 +36,7 @@ class ManageLog(models.Model):
         )
 
     def __str__(self):
-        return f"{self.station}. {self.manage_time}"
+        return f"{self.station} {self.managed_date}"
 
 
 class StatusCheck(models.Model):
@@ -70,6 +70,9 @@ class StatusCheck(models.Model):
         max_length=50, choices=STATUS_TYPE_ITEM, default=GOOD, verbose_name="台站总体状态"
     )
 
+    created = models.DateTimeField(auto_now_add=True)
+    updated = models.DateTimeField(auto_now=True)
+
     class Meta:
         abstract = True
 
@@ -101,11 +104,11 @@ class Record(models.Model):
         on_delete=models.CASCADE,
         limit_choices_to={
             "model__in": (
-                "LocationRecord",
-                "InstrumentEntityRecord",
-                "CommmonInstrumentRecord",
-                "InsertDiskRecord",
-                "CollectedDataRecord",
+                "LocationRecordItem",
+                "InstrumentEntityRecordItem",
+                "CommmonInstrumentRecordItem",
+                "InsertDiskRecordItem",
+                "CollectedDataRecordItem",
             )
         },
     )
@@ -139,7 +142,7 @@ class BaseRecordItem(models.Model):
         abstract = True
 
 
-class LocationRecord(BaseRecordItem):
+class LocationRecordItem(BaseRecordItem):
     """
     台站位置变更记录记录
     """
@@ -152,7 +155,7 @@ class LocationRecord(BaseRecordItem):
     other_info = models.TextField(blank=True, verbose_name="其他信息")
 
 
-class InstrumentEntityRecord(BaseRecordItem):
+class InstrumentEntityRecordItem(BaseRecordItem):
     """
     专业有序列号的设备变更记录
     """
@@ -165,7 +168,7 @@ class InstrumentEntityRecord(BaseRecordItem):
     )
 
 
-class CommmonInstrumentRecord(BaseRecordItem):
+class CommmonInstrumentRecordItem(BaseRecordItem):
     """
     通用设备变更记录
     """
@@ -180,7 +183,7 @@ class CommmonInstrumentRecord(BaseRecordItem):
     quantity = models.PositiveIntegerField(default=1, verbose_name="数量")
 
 
-class InsertDiskRecord(BaseRecordItem):
+class InsertDiskRecordItem(BaseRecordItem):
     """
     台站数据存储卡变更记录
     """
@@ -189,7 +192,7 @@ class InsertDiskRecord(BaseRecordItem):
     disk2_size = models.FloatField(default=0.0, verbose_name="卡2")
 
 
-class CollectedDataRecord(BaseRecordItem):
+class CollectedDataRecordItem(BaseRecordItem):
     """
     台站数据回收记录
     """

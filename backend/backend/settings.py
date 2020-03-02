@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
+    "django_filters",
     "basicinfo.apps.BasicinfoConfig",
     "instruments.apps.InstrumentsConfig",
     "logs.apps.LogsConfig",
@@ -84,6 +85,7 @@ REST_FRAMEWORK = {
     "DEFAULT_MODEL_SERIALIZER_CLASS": "rest_framework.serializers.ModelSerializer",
     "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
     "PAGE_SIZE": 10,
+    "DEFAULT_FILTER_BACKENDS": ["django_filters.rest_framework.DjangoFilterBackend"],
 }
 
 # Database
